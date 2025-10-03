@@ -1,0 +1,134 @@
+/* Global Reset & Font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4; /* fallback only */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Header Banner */
+.voting-header {
+  background-color: #0078D4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.voting-header .logo {
+  height: 40px;
+}
+
+/* Step Indicator */
+.step-indicator {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #eee;
+  font-weight: bold;
+  color: #555;
+  transition: background-color 0.3s ease;
+}
+
+.step.active {
+  background-color: #0078D4;
+  color: white;
+}
+
+/* Voting Card Container */
+.voting-card {
+  background: rgba(255, 255, 255, 0.95);
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Form Elements */
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+select:hover, input:hover {
+  border-color: #0078D4;
+}
+
+button {
+  background-color: #0078D4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Message Styling */
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.error {
+  color: red;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .voting-card {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .step-indicator {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .voting-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .voting-header .logo {
+    height: 30px;
+  }
+}

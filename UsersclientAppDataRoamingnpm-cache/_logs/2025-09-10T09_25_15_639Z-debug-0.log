@@ -1,0 +1,49 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\client\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\client\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\client\Desktop\AWS-Project\.npmrc
+5 silly config load:file:C:\Users\client\.npmrc
+6 silly config load:file:C:\Users\client\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react react-dom
+8 verbose argv "install" "react" "react-dom"
+9 verbose logfile logs-max:10 dir:C:\Users\client\Desktop\AWS-Project\UsersclientAppDataRoamingnpm-cache\_logs\2025-09-10T09_25_15_639Z-
+10 verbose logfile C:\Users\client\Desktop\AWS-Project\UsersclientAppDataRoamingnpm-cache\_logs\2025-09-10T09_25_15_639Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest react@*
+15 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/react 3515ms (cache updated)
+17 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+18 silly fetch manifest react-dom@*
+19 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react-dom 3335ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+22 silly placeDep ROOT react@19.1.1 OK for: aws-project@1.0.0 want: *
+23 silly placeDep ROOT react-dom@19.1.1 OK for: aws-project@1.0.0 want: *
+24 silly fetch manifest scheduler@^0.26.0
+25 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/scheduler 2574ms (cache updated)
+27 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+28 silly placeDep ROOT scheduler@0.26.0 OK for: react-dom@19.1.1 want: ^0.26.0
+29 silly reify moves {}
+30 silly audit bulk request {
+30 silly audit   react: [ '19.1.1' ],
+30 silly audit   'react-dom': [ '19.1.1' ],
+30 silly audit   scheduler: [ '0.26.0' ]
+30 silly audit }
+31 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz 1ms (cache hit)
+32 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.1.1.tgz 0ms (cache hit)
+33 http cache react@https://registry.npmjs.org/react/-/react-19.1.1.tgz 0ms (cache hit)
+34 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 287ms
+35 silly audit report {}
+36 silly ADD node_modules/scheduler
+37 silly ADD node_modules/react-dom
+38 silly ADD node_modules/react
+39 verbose cwd C:\Users\client\Desktop\AWS-Project
+40 verbose os Windows_NT 10.0.26100
+41 verbose node v20.17.0
+42 verbose npm  v10.9.1
+43 verbose exit 0
+44 info ok

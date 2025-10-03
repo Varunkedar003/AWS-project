@@ -1,0 +1,18 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\client\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\client\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\client\Desktop\AWS-Project\voting-app\.npmrc
+5 silly config load:file:C:\Users\client\.npmrc
+6 silly config load:file:C:\Users\client\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:C:\Users\client\Desktop\AWS-Project\voting-app\UsersclientAppDataRoamingnpm-cache\_logs\2025-09-11T09_54_50_693Z-
+10 verbose logfile C:\Users\client\Desktop\AWS-Project\voting-app\UsersclientAppDataRoamingnpm-cache\_logs\2025-09-11T09_54_50_693Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd C:\Users\client\Desktop\AWS-Project\voting-app
+13 verbose os Windows_NT 10.0.26100
+14 verbose node v20.17.0
+15 verbose npm  v10.9.1
+16 verbose exit 1
+17 verbose code 1
